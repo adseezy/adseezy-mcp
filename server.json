@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.adseezy/adseezy",
+  "title": "Adseezy",
+  "description": "Video ads, UGC creator ads and ad hooks for your own products, with OAuth sign-in.",
+  "websiteUrl": "https://adseezy.com/ai-assistants",
+  "repository": {
+    "url": "https://github.com/adseezy/adseezy-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://adseezy.com/mcp"
+    }
+  ]
+}
